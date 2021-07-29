@@ -1,0 +1,201 @@
+body {	
+background-color: antiquewhite;
+background-image: url(Gift/tenor7.gif), url(Gift/tenor7.gif), url(Gift/tenor8.gif), url(Gift/tenor6.gif);
+background-position: bottom left, right bottom, top, center  ;
+background-size: 380px, 380px, 380px, 400px; 
+background-repeat: no-repeat,no-repeat, repeat-x;
+
+}
+
+.h1 {
+font-family: serif ;
+font-style: italic;
+font-size: 10px;
+color: blanchedalmond;
+}
+.p1 {
+	font-style: oblique;
+	font-family: platini-linotype;
+	font-size: 50px;
+	width: 740px;
+	color: rosybrown;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation : ketik 7.5s steps(50, end);
+	animation: ketik 7.5s steps(50, end);
+	line-height: 1;
+
+}
+
+.p2{
+	color: azure;
+	font-style: italic;
+	font-size: 20px;
+	font-family: platini-linotype;
+}
+
+.p3{
+	font-style: italic;
+	font-family: bookman old style;
+	font-size: 90px;
+	width: 600px;
+	color: rosybrown;
+	white-space: nowrap;
+	text-shadow: 5px 8px seashell, 6px 9px peachpuff;
+	line-height: 1;
+}
+
+@keyframes ketik {
+	from { width: 0; }
+}
+
+@-webkit-keyframes ketik {
+	to { width : 0; }
+}
+
+.kotak {
+	width: 200px;
+	height: 200px;
+	background-color: lightsalmon;
+	animation: animasikotak 7s ease forwards;
+	border-radius: 30px;
+	
+}
+@keyframes animasikotak {
+	0% {
+		width: 200px;
+	} 
+
+	100%{
+		width: 700px;
+		height: 110px;
+	}
+}
+.container{
+    width: 500px;
+    margin: 10px auto;
+    border: 3px solid rosybrown;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+*{
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ text-decoration: none;
+}
+ 
+.slider{
+ overflow: hidden;
+ height: 300px;
+ border-radius: 10px;
+}
+ 
+.slider figure div{
+ width: 500px;
+ height: 500px;
+ float: left;
+}
+ 
+.slider figure img{
+ width: 400px;
+ height: 300px;
+ float: left;
+}
+ 
+.slider figure{
+ position: relative;
+ width: 500%;
+ margin: 0;
+ left: 0;
+ animation: 50s slidy infinite;
+}
+ 
+@keyframes slidy{
+ 0%{
+ left: 0%
+ }
+ 
+ 10%{
+ left: 0%;
+ }
+ 
+ 15%{
+ left: -100%;
+ }
+
+ 18%{
+ left: -100%;
+ }
+ 
+ 22%{
+ left: -200%;
+ }
+ 
+ 24%{
+ left: -200%;
+ }
+ 
+ 34%{
+ left: -200%;
+ }
+ 
+ 36%{
+ left: -300%;
+ }
+ 
+ 46%{
+ left: -300%;
+ }
+ 
+ 48%{
+ left: -400%;
+ }
+ 
+ 58%{
+ left: -400%;
+ }
+ 
+ 60%{
+ left: -300%;
+ }
+ 
+ 70%{
+ left: -300%;
+ }
+ 
+ 72%{
+ left: -200%;
+ }
+ 
+ 82%{
+ left: -200%;
+ }
+ 
+ 84%{
+ left: -100%;
+ }
+ 
+ 94%{
+ left: -100%;
+ }
+ 
+ 96%{
+ left: 0%;
+ }
+ 
+ 100%{
+ left: 0%;
+ }
+}
+
+
+
+
+
+
+
+
+
+
